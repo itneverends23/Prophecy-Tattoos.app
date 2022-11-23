@@ -1,9 +1,10 @@
 body {
     background-color: black;
+    touch-action: pan-y;
 
 }
 #Tattoo-Aftercare-Instructions {
-    
+
     display: block;
     background-color: #ff0000;
     height:30px;
