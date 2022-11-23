@@ -22,7 +22,7 @@ a {
 button{
     background-color: none;
     align-items: center;
-    use margin: auto;
+    margin: auto;
 }
 body {
     background-color: black;
