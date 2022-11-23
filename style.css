@@ -5,6 +5,7 @@ margin: auto;
 body {
     background-color: black;
     margin: auto;
+    align-items: center;
 }
 header {
     background-color: #ff0000;
