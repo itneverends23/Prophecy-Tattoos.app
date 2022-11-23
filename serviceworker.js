@@ -1,3 +1,3 @@
-if('serviceworker' in navigator){
+if('service.worker' in navigator){
 console.log('service worker supported');
 }
