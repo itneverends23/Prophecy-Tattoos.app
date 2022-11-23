@@ -14,7 +14,7 @@ height: 10rem;
 }
 div {
 
-    align center;
+    align-items: center ;
 }
 a {
     
