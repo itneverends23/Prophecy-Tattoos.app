@@ -14,7 +14,7 @@ a {
 }
 button{
     align-items: center;
-    margin: auto;
+    use margin: auto;
 }
 body {
     background-color: black;
