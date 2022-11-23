@@ -21,6 +21,7 @@ button{
     margin: auto;
 }
 body {
+    user-select: none;
     background-color: black;
     margin:0 auto ;
     align-items: center;
