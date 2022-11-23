@@ -2,6 +2,9 @@ body {
     background-color: black;
 
 }
+header {
+    background-color: #ff0000;
+}
 #Tattoo-Aftercare-Instructions {
 
     display: block;
