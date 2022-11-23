@@ -1,5 +1,6 @@
 
 .center{
+    position: absolute;
     margin: auto;
     align-items: center;
 }
