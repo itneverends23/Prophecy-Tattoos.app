@@ -7,8 +7,24 @@ window.addEventListener('load',() => {
 } )
 }
 
+
+const CACHE_NAME = "static_cache"
+const STATIC_ASSETS = [
+
+    '/index.htm',
+    '/style.css'
+
+]
+
+async function preCache(){
+
+    const cache = await caches.open(CACHE_NAME)
+        return  cache.addAll(STATIC_ASSETS)
+}
+
 self.addEventListener('install', event => {
     console.log("[SW] installed");
+    event.waituntil{preCache()}
 })
 self.addEventListener('activate', event => {
     console.log("[SW] activated");
