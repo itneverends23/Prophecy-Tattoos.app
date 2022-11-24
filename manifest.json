@@ -3,6 +3,7 @@
     "short_name": "Prophecy Tattoos",
     "start_url": "https://itneverends23.github.io/Prophecy-Tattoos.app/",
     "id": "https://itneverends23.github.io/Prophecy-Tattoos.app/",
+    "display_overide": "standalone",
     "display": "fullscreen",
     "background_color": "#000000",
     "theme_color": "#000000",
