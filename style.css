@@ -2,6 +2,9 @@ body{
     background-color: #000000;
 
 }
+button:link {
+    text-decoration:underline:none;
+}
 
 button.button{
 
