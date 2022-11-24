@@ -24,7 +24,7 @@ async function preCache(){
 
 self.addEventListener('install', event => {
     console.log("[SW] installed");
-    event.waituntil(preCache())
+    event.waitUntil(preCache())
 })
 self.addEventListener('activate', event => {
     console.log("[SW] activated");
