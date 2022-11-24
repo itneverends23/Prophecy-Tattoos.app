@@ -1,30 +1,3 @@
-.box{
-    position:absolute;
-}
-header { 
-align-items: center;
-width: 10rem;
-height: 10rem;
-}
-
-body {
-    margin: 0;
-    padding:0;
-    user-select: none;
-    background-color: black;
-    margin:0 auto ;
-    align-items: center;
-}
-
-
-#button {
-    text-align: center;
-}
-a {
-    align-items: center;
-    text-align: center;
-
-}
 #Tattoo-Aftercare-Instructions {
 
     margin: auto;
