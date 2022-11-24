@@ -9,11 +9,6 @@ body {
     background-color: black;
     margin:0 auto ;
     align-items: center;
-
-.center {
-    position: absolute;
-    margin: auto;
-    align-items: center;
 }
 
 
