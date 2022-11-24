@@ -23,7 +23,11 @@ body {
 #button {
     text-align: center;
 }
+a {
+    align-items: center;
+    text-align: center;
 
+}
 #Tattoo-Aftercare-Instructions {
 
     align-items: center;
