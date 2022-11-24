@@ -2,9 +2,11 @@ body{
     background-color: #000000;
 
 }
-.button{
+
+button.button{
 
     margin: auto;
+	display: block;
 }
 #Tattoo-Aftercare-Instructions {
 
