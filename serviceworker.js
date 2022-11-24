@@ -12,7 +12,8 @@ const CACHE_NAME = "static_cache"
 const STATIC_ASSETS = [
 
     '/index.htm',
-    '/style.css'
+    '/style.css',
+    'Prophecy-Tattoos.app/'
 
 ]
 
