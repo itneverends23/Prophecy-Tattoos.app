@@ -4,27 +4,22 @@ width: 10rem;
 height: 10rem;
 }
 
-.center {
-    position: absolute;
-    margin: auto;
-    align-items: center;
-}
-div {
-
-    align-items: center ;
-}
-button{
-    background-color: none;
-    align-items: center;
-    margin: auto;
-}
 body {
     user-select: none;
     background-color: black;
     margin:0 auto ;
     align-items: center;
+
+.center {
+    position: absolute;
+    margin: auto;
+    align-items: center;
 }
 
+
+#button {
+    text-align: center;
+}
 
 #Tattoo-Aftercare-Instructions {
 
