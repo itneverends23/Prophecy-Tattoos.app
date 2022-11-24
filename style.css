@@ -5,7 +5,10 @@
 
 
 
+.box{
 
+    position:absolute;
+}
 header { 
 align-items: center;
 width: 10rem;
