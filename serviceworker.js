@@ -11,8 +11,8 @@ window.addEventListener('load',() => {
 const CACHE_NAME = "static_cache"
 const STATIC_ASSETS = [
 
-    '/index.html',
-    '/style.css',
+    'index.html',
+    'style.css',
     'Prophecy-Tattoos.app/'
 
 ]
