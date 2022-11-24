@@ -31,10 +31,10 @@ body {
 #Tattoo-Aftercare-Instructions {
 
     color: white;
-    text-decoration: underline: none;
+    text-decoration: none ;
     display: block;
     background-color: #ff0000;
     height:30px;
-    width: 250px;px;
+    width: 250px;
     border-color: #ff0000;
 }
