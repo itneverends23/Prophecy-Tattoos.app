@@ -3,7 +3,7 @@ const STATIC_ASSETS = [
 
     'index.html',
     'style.css',
-    'Prophecy-Tattoos.app/'
+    '/Prophecy-Tattoos.app/'
 
 ]
 
