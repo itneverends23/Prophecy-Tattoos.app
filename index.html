@@ -13,7 +13,8 @@
     </head>
     <body>
       <div id="page1" ontouchstart="p1handleTouchStart(event)" 
-                      ontouchmove="pihandleTouchMove"
+                      ontouchmove="pihandleTouchMove(event)"
+                      ontouchend="p1handleTouchEnd(event)"
       class="homepage"><span>
         <a href="sms: +1(716)575-7891">
           <button class="button" style="background-color: #ff0000 ; height:50px;width:100px ; border-color: #ff0000 ;">Book Now</button> 
@@ -54,7 +55,9 @@
 
 
 
-      <div id="page2" class="feed"></div>
+      <div id="page2" ontouchstart="p2handleTouchStart(event)" 
+                      ontouchmove="p2handleTouchMove(event)"
+                      ontouchend="p2handleTouchEnd(event)" class="feed"></div>
 
 
 
