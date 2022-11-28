@@ -10,6 +10,12 @@
       <link rel="stylesheet" href="style.css">
       <link rel="icon" type="image/icon" href="favicon.ico">
       <link rel="manifest" href="manifest.json">
+
+      <script src="script.js"></script>
+      <script src="serviceworker.js"></script>
+      <script>
+        if (navigation.serviceWorker){
+            navigator.serviceWorker.register('serviceworker.js')} </script>
     </head>
     <body>
       <div id="page1" ontouchstart="p1handleTouchStart(event)" 
@@ -64,16 +70,6 @@
     
 
       
-    <script src="script.js"></script>
-    <script src="serviceworker.js"></script>
-    <script>
-        if (navigation.serviceWorker){
-            navigator.serviceWorker.register('serviceworker.js')
-
-        }
-
-
-
-    </script>
+    
   </body>
 </html>
