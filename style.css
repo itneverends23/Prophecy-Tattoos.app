@@ -24,7 +24,6 @@ body {
     height: 100%;
     background-color: blue;
     scroll-snap-align: center;
-    align-items: center;
 }   
 
 .page2{
@@ -36,7 +35,7 @@ body {
     height: 100%;
     background-color: red;
     scroll-snap-align: center;
-    align-items: center;
+    
 } 
 
 .page3{
@@ -49,5 +48,5 @@ body {
     height: 100%;
     background-color: #000000;
     scroll-snap-align: center;
-    align-items: center;
+    text-align: center;
 }   
