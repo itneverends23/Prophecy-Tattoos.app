@@ -11,25 +11,29 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: blue;
-    scroll-snap: y mandatory
+    scroll-snap-type: mandatory;
 }   
 .page2{
     width: 100vw;
     height: 100vh;
     background-color: greenyellow;
+    scroll-snap-type: mandatory;
 }
 .page3{
     width: 100vw;
     height: 100vh;
     background-color: red;
+    scroll-snap-type: mandatory;
 }
 .page4{
     width: 100vw;
     height: 100vh;
     background-color: violet;
+    scroll-snap-type: mandatory;
 }
 .page5{
     width: 100vw;
     height: 100vh;
     background-color: orange;
+    scroll-snap-type: mandatory;
 }
