@@ -9,32 +9,32 @@ body {
 }
 
 .page1{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: blue;
     scroll-snap-align: start;
 }   
 .page2{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: greenyellow;
     scroll-snap-align: start;
 }
 .page3{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: red;
     scroll-snap-align: start;
 }
 .page4{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: violet;
     scroll-snap-align: start;
 }
 .page5{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: orange;
     scroll-snap-align: start;
 }
