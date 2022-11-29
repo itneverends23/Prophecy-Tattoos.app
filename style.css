@@ -10,7 +10,10 @@ div h1{
     align-items: center;
 }
 
-
+#dialsoap{
+        text-align: center; 
+        align-items: center;
+}
 
 .container{
     Display: flex;
