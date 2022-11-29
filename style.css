@@ -7,6 +7,7 @@ body {
 }
 
 .container{
+    Display: flex;
     width: 100%;
     height: 100%;
     scroll-snap-type: y mandatory;
