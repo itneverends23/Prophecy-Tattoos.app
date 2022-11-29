@@ -5,35 +5,36 @@ body {
 .container{
     width: 100vw;
     height: 100vh;
+    scroll-snap-type: y mandatory;
 }
 
 .page1{
     width: 100vw;
     height: 100vh;
     background-color: blue;
-    scroll-snap-type: mandatory;
+    
 }   
 .page2{
     width: 100vw;
     height: 100vh;
     background-color: greenyellow;
-    scroll-snap-type: mandatory;
+    scroll-snap-align: start;
 }
 .page3{
     width: 100vw;
     height: 100vh;
     background-color: red;
-    scroll-snap-type: mandatory;
+    scroll-snap-align: start;
 }
 .page4{
     width: 100vw;
     height: 100vh;
     background-color: violet;
-    scroll-snap-type: mandatory;
+    scroll-snap-align: start;
 }
 .page5{
     width: 100vw;
     height: 100vh;
     background-color: orange;
-    scroll-snap-type: mandatory;
+    scroll-snap-align: start;
 }
