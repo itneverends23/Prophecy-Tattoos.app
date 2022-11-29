@@ -14,53 +14,10 @@ body {
         
 
 
-.section{ 
+.section { 
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
-
-
-
-
-
-     }
-
-
-
-
-        
-
-
-a {
-    text-decoration: none;
-}
-a:link {
-    text-decoration: none
-}
-button {
-    text-decoration: none;
-}
-
-button.button{
-
-    margin: auto;
-	display: block;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-#Tattoo-Aftercare-Instructions {
-
-    margin: auto;
-    font-size:  16px;
-    content: center;
-    padding: 0px;
-    color: white;
-    text-decoration: none ;
-    display: block;
-    background-color: #ff0000;
-    height: 100px;
-    width: 250px;
-    border-color: #ff0000;
 }
