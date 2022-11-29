@@ -12,6 +12,7 @@ div h1{
 
 img{
     display: block;
+    align-items: center;
 }
 
 .container{
