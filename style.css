@@ -9,7 +9,10 @@ div h1{
     text-align: center; 
     align-items: center;
 }
+img{
 
+    
+}
 
 .container{
     Display: flex;
