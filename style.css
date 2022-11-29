@@ -5,7 +5,10 @@ body {
     margin: 0;
     background-color: red
 }
-
+div.h1{
+    text-align: center; 
+    align-items: center;
+}
 
 .container{
     Display: flex;
