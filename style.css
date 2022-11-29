@@ -40,7 +40,7 @@ body {
 
 .page3{
     color: white;
-    
+    flex: none;
     display: flex;
     align-items: center;
     width: 100%;
