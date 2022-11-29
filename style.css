@@ -10,9 +10,8 @@ div h1{
     align-items: center;
 }
 
-div img #dialsoap {
-    align-items: center;
-    text-align: center;
+img{
+    display: block;
 }
 
 .container{
