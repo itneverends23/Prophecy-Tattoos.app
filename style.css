@@ -32,7 +32,7 @@ div h1{
 
 .page1{
     flex: none;
-    display: flex;
+    display: block  
     margin-right: 5px;
     justify-content: center;
     align-items: center;
