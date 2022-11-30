@@ -3,32 +3,17 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: yellow
+
+.container{
+
     
 }
+}
 .page1{
-    align-items: flex-start;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: blue;
+
 }   
-.page2{
-    align-items: flex-start;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    scroll-snap-align: center;
-    
+.page2{   
 } 
 
-.page3{ 
-    align-items: flex-start;
-    color: white; 
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: #000000;
-    scroll-snap-align: center;
-    
+.page3{   
 }   
