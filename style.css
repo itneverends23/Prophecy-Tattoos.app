@@ -57,6 +57,7 @@ div h1{
 
 .page3{
     text-align: center;
+    justify-content: center;
     color: white; 
     flex: none;
     display: flex ;
