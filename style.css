@@ -28,9 +28,6 @@ div h1{
 }
 
 .page1{
-    flex: none;
-    display: flex;
-
     justify-content: center;
     align-items: flex-start;
     width: 100%;
@@ -40,8 +37,6 @@ div h1{
 }   
 
 .page2{
-    flex: none;
-    display: flex;
     justify-content: center;
     align-items: flex-start;
 
@@ -52,10 +47,8 @@ div h1{
     
 } 
 
-.page3{
-    
+.page3{ 
     color: white; 
-    display: flex ;
     align-items: flex-start;
     justify-content: center;
     width: 100%;
