@@ -22,7 +22,7 @@ div h1{
 }
 
 .container{
-    Display: blocks;
+    Display: block;
     width: 100%;
     height: 100%;
     scroll-snap-type: x mandatory;
