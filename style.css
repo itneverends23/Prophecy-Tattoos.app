@@ -22,7 +22,7 @@ div h1{
 }
 
 .container{
-    Display: block;
+    Display: flex;
     width: 100%;
     height: 200%;
     scroll-snap-type: x mandatory;
