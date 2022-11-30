@@ -4,25 +4,6 @@ body {
     height: 100vh;
     background-color: yellow
 }
-div h1{
-    text-align: center; 
-}
-
-#dialsoap{
-        justify-content: center;
-        text-align: center; 
-        align-items: center;
-}
-#aquaphor{
-        justify-content: center; 
-        justify-content: center;
-        text-align: center;    
-}
-
-
-    
-
-
 .page1{
     justify-content: center;
     align-items: flex-start;
@@ -31,7 +12,6 @@ div h1{
     background-color: blue;
     scroll-snap-align: center;
 }   
-
 .page2{
     justify-content: center;
     align-items: flex-start;
