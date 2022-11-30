@@ -1,14 +1,22 @@
+
 ::-webkit-scrollbar{
 
 	display:none;
 }
-
 
 body{
     width: 100vw;
     height: 100vh;
     margin: 0;
     background-color: yellow;
+}
+
+
+button{	
+	background-color: #FF5F1F ; 
+	height:40px;
+	width:100px ; 
+	border-color: #FF5F1F;
 }
 .container{
 	 flex:none;
@@ -22,20 +30,23 @@ body{
 }
 
 .page1{
+	overflow: scroll;
+	color: #FF5F1F;
 	font-size:16px;
 	 flex:none;
-	 display:flex;
+	 display:block;
 	 justify-content: center; 
-	 align-items: flex-start;
+	 align-items: center;
     width: 100vw;
     height: auto;
-    background-color: blue;
+    background-color: #000000;
 	 scroll-snap-align: center;
 }
 .page2{
+	overflow: scroll;
 	font-size:16px;
 	 flex:none;
-	 display:flex;
+	 display:block;
 	 justify-content: center; 
 	 align-items: flex-start;
     width: 100vw;
@@ -44,9 +55,10 @@ body{
 	 scroll-snap-align: center;
 }
 .page3{
+	overflow: scroll;
 	font-size:16px;
 	 flex:none;
-	 display:flex;
+	 display:block;
 	 justify-content: center;
 	 align-items: flex-start;
     width: 100vw;
@@ -55,6 +67,7 @@ body{
 	 scroll-snap-align: center;
 }
 .page4{
+	color:#FF5F1F;
 	overflow: scroll;
 	font-size:16px;
 	 padding :20px;
@@ -64,19 +77,20 @@ body{
 	 align-items: flex-start;
     width: 100vw;
     height: auto;
-    background-color: white;
+    background-color: #000000;
 	 scroll-snap-align: center;
 }
 .page5{
-	
-	font-size:16px;
+	 color:#FF5F1F;
+	 font-size:16px;
+	 overflow: scroll;
 	 flex: none;
-	 display: flex;
+	 display: block;
 	 justify-content: center; 
 	 align-items: flex-start;
     width: 100vw;
     height: auto;
-    background-color: orange;
+    background-color: #000000;
 	 scroll-snap-align: center;
 	 
 }
