@@ -12,9 +12,13 @@ div h1{
 
 #dialsoap{
         justify-content: center;
+        text-align: center; 
+        align-items: center;
 }
 #aquaphor{
-        justify-content: center;    
+        justify-content: center; 
+        justify-content: center;
+        text-align: center;    
 }
 
 .container{
