@@ -58,8 +58,7 @@ div h1{
 .page3{
     justify-content: center;
     color: white; 
-
-    display: grid ;
+    display: flex ;
     align-items: flex-start;
     align-content: center;
     width: 100%;
