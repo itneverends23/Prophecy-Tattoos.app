@@ -28,45 +28,7 @@ button{
 	 overflow-x: scroll;
 	 
 }
-
-.page1{
-	overflow: scroll;
-	color: #FF5F1F;
-	font-size:16px;
-	 flex:none;
-	 display:block;
-	 justify-content: center; 
-	 align-items: center;
-    width: 100vw;
-    height: auto;
-    background-color: #000000;
-	 scroll-snap-align: center;
-}
-.page2{
-	overflow: scroll;
-	font-size:16px;
-	 flex:none;
-	 display:block;
-	 justify-content: center; 
-	 align-items: flex-start;
-    width: 100vw;
-    height: auto;
-    background-color: green;
-	 scroll-snap-align: center;
-}
-.page3{
-	overflow: scroll;
-	font-size:16px;
-	 flex:none;
-	 display:block;
-	 justify-content: center;
-	 align-items: flex-start;
-    width: 100vw;
-    height: auto;
-    background-color: violet;
-	 scroll-snap-align: center;
-}
-.page4{
+.page{
 	color:#FF5F1F;
 	overflow: scroll;
 	font-size:16px;
@@ -80,20 +42,7 @@ button{
     background-color: #000000;
 	 scroll-snap-align: center;
 }
-.page5{
-	 color:#FF5F1F;
-	 font-size:16px;
-	 overflow: scroll;
-	 flex: none;
-	 display: block;
-	 justify-content: center; 
-	 align-items: flex-start;
-    width: 100vw;
-    height: auto;
-    background-color: #000000;
-	 scroll-snap-align: center;
-	 
-}
+
 h1{
 	 text-align:center;
 	 }
