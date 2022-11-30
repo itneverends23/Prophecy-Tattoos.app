@@ -15,7 +15,6 @@ body{
 }
 
 .page1{
-	padding:10px;
 	 flex:none;
 	 display:flex;
 	 justify-content: center; 
@@ -23,10 +22,9 @@ body{
     width: 100vw;
     height: 200vh;
     background-color: blue;
-	 scroll-snap-align: start;
+	 scroll-snap-align: center;
 }
 .page2{
-	padding:10px;
 	 flex:none;
 	 display:flex;
 	 justify-content: center; 
@@ -34,10 +32,9 @@ body{
     width: 100vw;
     height: 200vh;
     background-color: green;
-	 scroll-snap-align: start;
+	 scroll-snap-align: center;
 }
 .page3{
-	padding:10px;
 	 flex:none;
 	 display:flex;
 	 justify-content: center;
@@ -45,10 +42,10 @@ body{
     width: 100vw;
     height: 200vh;
     background-color: violet;
-	 scroll-snap-align: start;
+	 scroll-snap-align: center;
 }
 .page4{
-	padding:10px;
+padding :20px;
     flex:none;
 	 display: block;
 	 justify-content: center;
@@ -56,10 +53,10 @@ body{
     width: 100vw;
     height: 200vh;
     background-color: white;
-	 scroll-snap-align: start;
+	 scroll-snap-align: center;
 }
 .page5{
-	padding:10px;
+
 	 flex: none;
 	 display: flex;
 	 justify-content: center; 
@@ -67,7 +64,7 @@ body{
     width: 100vw;
     height: 200vh;
     background-color: orange;
-	 scroll-snap-align: start;
+	 scroll-snap-align: center;
 	 
 }
 h1{
