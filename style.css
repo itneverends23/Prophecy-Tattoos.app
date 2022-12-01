@@ -67,6 +67,6 @@ h1{
 	 
 img#soap{
 	justify-content:left;
-	display:flex;
+	display:block;
 	width: 20%;
    height: auto;}
