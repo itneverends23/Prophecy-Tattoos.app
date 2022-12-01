@@ -32,13 +32,15 @@ button{
 }
 
 .page{
+	padding-right: 20%;
+	padding-left:15%;
 	color:#FF5F1F;
 	overflow: scroll;
 	font-size:16px;
    flex:none;
 	display: block;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
    width: 100vw;
    height: auto;
    background-color: #000000;
@@ -55,7 +57,7 @@ button{
    width: 100vw;
    height: auto;
    background-color: #000000;
-	scroll-snap-align: center;
+	scroll-snap-align: start;
 }
 
 
@@ -66,7 +68,11 @@ h1{
 	 }
 	 
 img#soap{
+
 	justify-content:left;
 	display:block;
-	width: 20%;
-   height: auto;}
+	width: 200px;
+   height: auto;
+	object-fit:contain;
+	}
+	
