@@ -59,8 +59,22 @@ button{
    background-color: #000000;
 	scroll-snap-align: start;
 }
+.aftercare{
+	padding-right: 20%;
+	padding-left:15%;
+	color:#FF5F1F;
+	overflow: scroll;
+	font-size:16px;
+   flex:none;
+	display: block;
+	justify-content: center;
+	align-items: center;
+   width: 100vw;
+   height: auto;
+   background-color: #000000;
+	scroll-snap-align: center;
 
-
+}
 
 
 h1{
@@ -68,11 +82,13 @@ h1{
 	 }
 	 
 img#soap{
-
-	justify-content:left;
-	display:block;
+	text-align:center;
+	display:flex;
 	width: 200px;
    height: auto;
 	object-fit:contain;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
 	}
-	
+
