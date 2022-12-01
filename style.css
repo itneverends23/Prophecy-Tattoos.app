@@ -21,6 +21,7 @@ button{
 }
 
 .container{
+
 	 flex:none;
 	 display: inline-flex;
     width: 100vw;
@@ -35,6 +36,87 @@ button{
 	padding-right: 20%;
 	padding-left:15%;
 	color:#FF5F1F;
+	overflow: scroll;/*this keepts page scrolling*/
+	font-size:16px;
+   flex:none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+   width: 100vw;
+   height: auto;
+   background-color: #000000;
+	scroll-snap-align: center;
+	
+}
+
+
+.gallery{
+/*keeps image in the middle of the documment*/
+	color:#FF5F1F;
+	overflow: scroll;
+	font-size:16px;
+   flex:none;
+	display: inline-block;/*this keeps things align vertically*/
+	/*------centering------------*/
+
+	/*---------page dimensions---------*/
+   background-color: #000000;
+	scroll-snap-type: y mandatory;
+	scroll-snap-align: center;
+	text-align:center;
+	width: 100%;
+   height: auto;
+}
+
+#if{
+flex-direction: column;
+	flex:none;
+	 margin:0;
+	 display:flex;
+	 width: 100vw;
+    height: 100vh;
+	 justify-content: center;
+	 align-items: center;
+	 background-color: #000000;
+	 scroll-snap-align: center;
+	 
+}
+
+#gi{
+	display:block;
+	text-align:center;
+	width: 350px;
+   height: auto;
+	object-fit:contain;
+  	margin-left: auto;/*keeps image in the middle of the documment*/
+  	margin-right: auto;
+	border: 15px solid #FF5F1F;
+
+}
+#gh{
+	position:relative;
+	top:-60px;
+	margin:0px;
+	
+} 
+/*
+img#gallery {
+	text-align:center;
+	display:block;
+	width: 100px;
+   height: auto;
+	object-fit:;
+  	margin-left: auto;/*keeps image in the middle of the documment*//*
+  	margin-right: auto;
+
+
+}
+*/
+.aftercare{
+
+	padding-right: 20%;
+	padding-left:15%;
+	color:#FF5F1F;
 	overflow: scroll;
 	font-size:16px;
    flex:none;
@@ -45,21 +127,27 @@ button{
    height: auto;
    background-color: #000000;
 	scroll-snap-align: center;
+
 }
-.gallery{
+.policy{
+
+	padding-right: 20%;
+	padding-left:15%;
 	color:#FF5F1F;
-	overflow: hidden;
+	overflow: scroll;
 	font-size:16px;
    flex:none;
 	display: block;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
    width: 100vw;
    height: auto;
    background-color: #000000;
-	scroll-snap-align: start;
+	scroll-snap-align: center;
+
 }
-.aftercare{
+.aboutme{
+
 	padding-right: 20%;
 	padding-left:15%;
 	color:#FF5F1F;
@@ -76,19 +164,38 @@ button{
 
 }
 
-
 h1{
 	 text-align:center;
 	 }
 	 
+h2{
+	 text-align:center;
+	 }
+
+	
+	 
+/*----------Center Images !!!*/
+
 img#soap{
 	text-align:center;
 	display:flex;
 	width: 200px;
    height: auto;
 	object-fit:contain;
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
+  	margin-left: auto;/*keeps image in the middle of the documment*/
+  	margin-right: auto;/*keeps image in the middle of the documment*/
+  
 	}
+	
+/*-------magin only works for the object belli !!*/
 
+p{
+	margin-left: 10%;
+   margin-right: 10%;
+	text-align:center;
+}
+
+li {
+	margin-left: 20%;
+   margin-right: 10%;
+}
