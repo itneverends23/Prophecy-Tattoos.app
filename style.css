@@ -35,27 +35,38 @@ button{
 	color:#FF5F1F;
 	overflow: scroll;
 	font-size:16px;
-	
-    flex:none;
-	 display: block;
-	 justify-content: center;
-	 align-items: flex-start;
-    width: 100vw;
-    height: auto;
-    background-color: #000000;
-	 scroll-snap-align: center;
+   flex:none;
+	display: block;
+	justify-content: center;
+	align-items: flex-start;
+   width: 100vw;
+   height: auto;
+   background-color: #000000;
+	scroll-snap-align: center;
 }
+.gallery{
+	color:#FF5F1F;
+	overflow: hidden;
+	font-size:16px;
+   flex:none;
+	display: block;
+	justify-content: center;
+	align-items: flex-start;
+   width: 100vw;
+   height: auto;
+   background-color: #000000;
+	scroll-snap-align: center;
+}
+
+
+
 
 h1{
 	 text-align:center;
 	 }
 	 
-#dialsoap{
-	text-align:center;
-}
-img{
-display:block;
-height: 100%; 
-width: 100%; 
-object-fit: contain
-}
+img#soap{
+	justify-content:left;
+	display:flex;
+	width: 20%;
+   height: auto;}
