@@ -54,8 +54,8 @@ h1{
 	text-align:center;
 }
 img{
-    display: block;
-    height: 100%; 
-    width: 100%; 
-    object-fit: contain
+display:block;
+height: 100%; 
+width: 100%; 
+object-fit: contain
 }
