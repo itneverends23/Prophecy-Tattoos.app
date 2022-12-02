@@ -49,6 +49,25 @@ button{
 	
 }
 
+.page2{
+text-align:center;
+	align-items: center;
+	padding-right: 20%;
+	padding-left:15%;
+	color:#FF5F1F;
+	overflow: scroll;/*this keepts page scrolling*/
+	font-size:16px;
+   flex:none;
+	display: inline-block;
+	justify-content: center;
+   width: 100vw;
+   height: auto;
+   background-color: #000000;
+	scroll-snap-align: center;
+	
+}
+
+	
 
 .gallery{
 /*keeps image in the middle of the documment*/
@@ -69,9 +88,8 @@ button{
 }
 
 #if{
-flex-direction: column;
+	 flex-direction: column;
 	flex:none;
-	 margin:0;
 	 display:flex;
 	 width: 100vw;
     height: 100vh;
@@ -96,9 +114,56 @@ flex-direction: column;
 #gh{
 	position:relative;
 	top:-60px;
-	margin:0px;
 	
 } 
+#aboutme{	
+	display:block;
+	text-align:center;
+	width: 350px;
+   height: auto;
+	object-fit:contain;
+  	margin-left: auto;/*keeps image in the middle of the documment*/
+  	margin-right: auto;
+	}
+	
+.logos{
+	padding-top:20%;
+	padding-right: 20%;
+	padding-left:15%;
+	color:#FF5F1F;
+	overflow: scroll;/*this keepts page scrolling*/
+	font-size:16px;
+   flex:none;
+	display: flex-start;
+	justify-content: center;
+	align-items: center;
+   width: 100vw;
+   height: auto;
+   background-color: #000000;
+	scroll-snap-align: center;
+	
+}
+	
+#logos{/*images*/
+	width: 260px;
+   height: auto;
+	margin-left: auto;/*keeps image in the middle of the documment*/
+  	margin-right: auto;
+	display:block;
+}
+
+.table{	
+display:inline-block;
+text-align:left;
+
+}
+
+table{
+font-size:18px;
+width:100%;
+height:auto;
+}
+
 /*
 img#gallery {
 	text-align:center;
@@ -163,6 +228,10 @@ img#gallery {
 	scroll-snap-align: center;
 
 }
+
+
+
+
 
 h1{
 	 text-align:center;
