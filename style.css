@@ -143,6 +143,24 @@ text-align:center;
 	scroll-snap-align: center;
 	
 }
+
+.page1{
+	padding-right: 20%;
+	padding-left:15%;
+	color:#FF5F1F;
+	overflow: scroll;/*this keepts page scrolling*/
+	font-size:16px;
+   flex:none;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+   width: 100vw;
+   height: auto;
+   background-color: #000000;
+	scroll-snap-align: center;
+	
+}
 	
 #logos{/*images*/
 	width: 260px;
