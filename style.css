@@ -298,7 +298,9 @@ li {
 }
 /*-----map css -----*/
 #map{ 
-	padding: 50px;
+	margin-left: auto;/*keeps image in the middle of the documment*/
+	margin-right: auto;
+  	display:block;
 	height: 100px;
 	width: 100px;
 }
