@@ -298,6 +298,7 @@ li {
 }
 /*-----map css -----*/
 #map{ 
+	padding: 50px;
 	height: 100px;
 	width: auto;
 }
