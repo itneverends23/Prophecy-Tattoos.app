@@ -107,6 +107,7 @@ text-align:center;
 	 
 }
 #qr{
+	position: relative;
 	display:block;
 	text-align:center;
 	width: 250px;
