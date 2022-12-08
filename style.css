@@ -106,7 +106,7 @@ text-align:center;
    height: auto;
 	object-fit:contain;
   	margin-left: auto;/*keeps image in the middle of the documment*/
-  	margin-right: auto;
+  	margin-right: auto;/*keeps image in the middle of the documment*/
 	border: 15px solid #FF5F1F;
 }
 
