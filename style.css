@@ -108,6 +108,7 @@ text-align:center;
 }
 #qr{
 	position: relative;
+	top: 100px;
 	display:block;
 	text-align:center;
 	width: 250px;
