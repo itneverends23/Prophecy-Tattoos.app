@@ -301,6 +301,6 @@ li {
 	margin-left: auto;/*keeps image in the middle of the documment*/
 	margin-right: auto;
   	display:inline-block;
-	height: 500px;
-	width: 100px;
+	height: 500vh;
+	width: 300vw;
 }
