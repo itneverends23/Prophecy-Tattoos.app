@@ -22,7 +22,7 @@ button{
 .button{
 	justify-content:center;
 	background-color: #FF5F1F ; 
-	height:70px;
+	height:40px;
 	width:130px ; 
 	border-color: #FF5F1F;
 }
@@ -40,13 +40,15 @@ button{
 }
 
 .page1{
+	text-align:center;
+	align-items: center;
 	padding-right: 20%;
 	padding-left:15%;
 	color:#FF5F1F;
 	overflow: scroll;/*this keepts page scrolling*/
 	font-size:16px;
    flex:none;
-	display: flex;
+	display: block;
 	justify-content: center;
 	align-items: center;
    width: 100vw;
@@ -57,7 +59,7 @@ button{
 }
 
 .page2{
-text-align:center;
+	text-align:center;
 	align-items: center;
 	padding-right: 20%;
 	padding-left:15%;
@@ -80,9 +82,8 @@ text-align:center;
 	overflow: scroll;/*this keepts page scrolling*/
 	font-size:16px;
    flex:none;
-	display: flex;
+	display: block;
 	justify-content: center;
-	align-items: center;
    width: 100vw;
    height: auto;
    background-color: #000000;
@@ -123,11 +124,11 @@ text-align:center;
 	 
 }
 #qr{
-	position: relative;
+	position: flex;
 	top: 160px;
 	display:block;
 	text-align:center;
-	width: 250px;
+	width: 200px;
    height: auto;
 	object-fit:contain;
   	margin-left: auto;/*keeps image in the middle of the documment*/
@@ -162,14 +163,13 @@ text-align:center;
 	}
 	
 .logos{
-	padding-top:20%;
 	padding-right: 20%;
 	padding-left:15%;
 	color:#FF5F1F;
 	overflow: scroll;/*this keepts page scrolling*/
 	font-size:16px;
    flex:none;
-	display: flex-start;
+	display: start;
 	justify-content: center;
 	align-items: center;
    width: 100vw;
@@ -196,8 +196,13 @@ text-align:center;
 	scroll-snap-align: center;
 	
 }
+
+
+
+
 	
 #logos{/*images*/
+
 	width: 260px;
    height: auto;
 	margin-left: auto;/*keeps image in the middle of the documment*/
