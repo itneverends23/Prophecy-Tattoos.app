@@ -12,10 +12,3 @@ window.initMap = initMap;
 
 map = new google.maps.Map({ draggable : false });
 
-mapOptions: {
-    disableDefaultUI : true,
-    clickableIcons: false,
-    gestureHandling: 'none',
-    draggableCursor: 'arrow' //use the arrow default pointer ;)
-    scrollwheel: false,
-  }
