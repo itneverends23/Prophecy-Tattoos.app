@@ -20,7 +20,7 @@
  <!-- map scripts ---->
 		<script type="module" src="/map.js"></script>
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-		
+			<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_6AMyGF05-P8W5DfvuZXVq6rnwNswZNo&callback=initMap"defer></script>	
   	</head>
   <body> 
     <div class="container">
@@ -124,11 +124,10 @@
 				<br>
 					<div id="map"></div>
 					 <!---map script-->
-	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_6AMyGF05-P8W5DfvuZXVq6rnwNswZNo&callback=initMap"
-async defer></script>
+	 
 </div>
       <div class="gallery">
-				<div id="if"><div id="gh"><h1>Gallery</h1></div><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/virgin-mary-black-n-grey-tattoo.jpg"></div>
+				<div id="if" ><div id="gh"><h1>Gallery</h1></div><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/virgin-mary-black-n-grey-tattoo.jpg"></div>
 				<div id="if" ><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/black-n-grey-bird-drawing.jpg"></div>
 				<div id="if" ><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/Neo-traditional-rose-tattoo.jpg"></div>
 				<div id="if" ><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/titto-tattoo.jpg"></div>
@@ -167,14 +166,49 @@ async defer></script>
 			<br>
 			<h1>FAQ</h1>
 			<br>
-			<div class="accordion">
-				<div class="accordion-item" id="question1s">
-					<a href="question1">
-						Do I rebandage tattoo before i go to sleep?
-					</a>
-				</div>
-			</div>
+			<!--------------------accordion--container------>
+<button class="accordion">Is it normal to swell after tattoo?</button>
+<div class="panel">
+  <p>
+Signs of an infection: After getting a tattoo, it's normal to see some redness and swelling. Your skin will feel sore, and you may see clear fluid oozing from your new tattoo. As your skin heals, it can itch and flake. Scabs may form.</p>
+</div>
+<br>
+<button class="accordion">can i take a shower after getting a tattoo?</button>
+<div class="panel">
+  <p>
+  The bottom line. Showering with a new tattoo isn't only fine; it's necessary for the sake of good hygiene. As long as you follow the aftercare instructions your tattoo artist gives you, and you're careful not to rub or soak your tattoo, showering shouldn't interfere with the healing process of your new ink.
+  </p>
+</div>
+<br>
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+				<!--------------------accordion--container---------->
+				
+				
+				
 		</div>
+		
 		<div class="policy">
 			<br>
 			<h1>Policy</h1>
@@ -211,7 +245,7 @@ async defer></script>
 				<div><img id="logos"  src="https://storage.googleapis.com/prophecytattoosapp-images/Icons/anchored-logo.png"></div>
 		</div>
 	 </div>
-	
+
 		
   </body>
 </html>
