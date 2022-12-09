@@ -346,7 +346,7 @@ li {
   color: #000000;
   cursor: pointer;
   padding: 5px;
-  width: 100%;
+  width: 100vw;
   height: 8%;
   border: none;
   text-align: left;
