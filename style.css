@@ -190,7 +190,7 @@ button{
 
 #prophecylogo{/*images*/
 
-	width: 260px;
+	width: 200px;
    height: auto;
 	margin-left: auto;/*keeps image in the middle of the documment*/
   	margin-right: auto;
@@ -333,9 +333,9 @@ li {
 	margin-left: 10%;
    margin-right: 10%;
 }
-/*-----map css -----*/
+/*-----map css -----
 #map{ 
-	margin-left: auto;/*keeps image in the middle of the documment*/
+	margin-left: auto;/*keeps image in the middle of the documment
 	margin-right: auto;
   	display:block;
 	height: 400px;
