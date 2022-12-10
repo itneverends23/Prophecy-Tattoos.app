@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin: 0;
     background-color: yellow;
@@ -34,7 +34,7 @@ button{
 
 	 flex:none;
 	 display: inline-flex;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: red;
 	 scroll-snap-type: x mandatory;
@@ -46,8 +46,6 @@ button{
 .page1{
 	text-align:center;
 	align-items: center;
-	padding-right: 20%;
-	padding-left:15%;
 	color:#FF5F1F;
 	overflow: scroll;/*this keepts page scrolling*/
 	font-size:16px;
@@ -55,7 +53,7 @@ button{
 	display: block;
 	justify-content: center;
 	align-items: center;
-   width: auto;
+   width: 100vw;
    height: auto;
    background-color: #000000;
 	scroll-snap-align: center;
@@ -66,8 +64,7 @@ button{
 .page2{
 	text-align:center;
 	align-items: center;
-	padding-right: 20%;
-	padding-left:15%;
+
 	color:#FF5F1F;
 	overflow: scroll;/*this keepts page scrolling*/
 	font-size:16px;
@@ -79,6 +76,24 @@ button{
    background-color: #000000;
 	scroll-snap-align: center;
 
+	
+}
+
+.logos{
+	padding-right: 20%;
+	padding-left:15%;
+	color:#FF5F1F;
+	overflow: scroll;/*this keepts page scrolling*/
+	font-size:16px;
+   flex:none;
+	display: start;
+	justify-content: center;
+	align-items: center;
+   width: 100vw;
+   height: auto;
+   background-color: #000000;
+	scroll-snap-align: center;
+	scroll-snap-stop: always;
 	
 }
 
@@ -103,6 +118,67 @@ button{
 	width: 100%;
    height: auto;
 }
+.aftercare{
+
+	padding-right: 20%;
+	padding-left:;
+	color:#FF5F1F;
+	overflow: scroll;
+	font-size:16px;
+   flex:none;
+	display: block;
+	justify-content: center;
+	align-items: center;
+   width: 100vw;
+   height: auto;
+   background-color: #000000;
+	scroll-snap-align: center;
+	scroll-snap-stop: always;
+
+}
+.policy{
+
+	padding-right: 20%;
+	padding-left:15%;
+	color:#FF5F1F;
+	overflow: scroll;
+	font-size:16px;
+   flex:none;
+	display: block;
+	justify-content: center;
+	align-items: center;
+   width: 100vw;
+   height: auto;
+   background-color: #000000;
+	scroll-snap-align: center;
+	scroll-snap-stop: always;
+
+}
+.aboutme{
+
+	padding-right: 20%;
+	padding-left:15%;
+	color:#FF5F1F;
+	overflow: scroll;
+	font-size:16px;
+   flex:none;
+	display: block;
+	justify-content: center;
+	align-items: center;
+   width: 100vw;
+   height: auto;
+   background-color: #000000;
+	scroll-snap-align: center;
+	scroll-snap-stop: always;
+
+}
+
+
+
+
+
+
+
 
 #if{
 	 flex-direction: column;
@@ -155,23 +231,7 @@ button{
   	margin-right: auto;
 	}
 	
-.logos{
-	padding-right: 20%;
-	padding-left:15%;
-	color:#FF5F1F;
-	overflow: scroll;/*this keepts page scrolling*/
-	font-size:16px;
-   flex:none;
-	display: start;
-	justify-content: center;
-	align-items: center;
-   width: 100vw;
-   height: auto;
-   background-color: #000000;
-	scroll-snap-align: center;
-	scroll-snap-stop: always;
-	
-}
+
 
 
 
@@ -239,61 +299,6 @@ img#gallery {
 
 }
 */
-.aftercare{
-
-	padding-right: 20%;
-	padding-left:15%;
-	color:#FF5F1F;
-	overflow: scroll;
-	font-size:16px;
-   flex:none;
-	display: block;
-	justify-content: center;
-	align-items: center;
-   width: 100vw;
-   height: auto;
-   background-color: #000000;
-	scroll-snap-align: center;
-	scroll-snap-stop: always;
-
-}
-.policy{
-
-	padding-right: 20%;
-	padding-left:15%;
-	color:#FF5F1F;
-	overflow: scroll;
-	font-size:16px;
-   flex:none;
-	display: block;
-	justify-content: center;
-	align-items: center;
-   width: 100vw;
-   height: auto;
-   background-color: #000000;
-	scroll-snap-align: center;
-	scroll-snap-stop: always;
-
-}
-.aboutme{
-
-	padding-right: 20%;
-	padding-left:15%;
-	color:#FF5F1F;
-	overflow: scroll;
-	font-size:16px;
-   flex:none;
-	display: block;
-	justify-content: center;
-	align-items: center;
-   width: 100vw;
-   height: auto;
-   background-color: #000000;
-	scroll-snap-align: center;
-	scroll-snap-stop: always;
-
-}
-
 
 
 
@@ -385,3 +390,4 @@ li {
   background-color: #000000;
   overflow: hidden;
 }
+
