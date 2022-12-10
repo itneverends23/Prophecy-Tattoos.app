@@ -10,28 +10,44 @@ body{
     margin: 0;
     background-color: yellow;
 }
-/*-----------buttons-----------------*/
+/*--.--------buttons-----------------*/
 
-button{
+
+.button{
+	margin:40px;
+   position:relative;
+	display: inline-block;
 	justify-content:center;
 	background-color: #FF5F1F ; 
 	height:70px;
 	width:130px ; 
 	border-color: #FF5F1F;
 }
-.button{
-	justify-content:center;
+#button{
+
+	
+	display: inline-block;
 	background-color: #FF5F1F ; 
-   width: 100%;
-   min-width: 50px;
-   max-width: 300px;
+	height:70px;
+	width:130px ; 
 	border-color: #FF5F1F;
 }
+menu{
+
+}
+
+#menu-item{
+margin-left:10px;
+margin-right:10px;
+	width:40px;
+	height:auto;
+}
+
 
 /*----------------------------*/
 
 .container{
-
+	 justify-content:space-between;
 	 flex:none;
 	 display: inline-flex;
     width: 100%;
@@ -44,21 +60,30 @@ button{
 }
 
 .page1{
+	position:relative;
 	text-align:center;
 	align-items: center;
 	color:#FF5F1F;
 	overflow: scroll;/*this keepts page scrolling*/
 	font-size:16px;
    flex:none;
-	display: block;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-between;
+
    width: 100vw;
    height: auto;
    background-color: #000000;
 	scroll-snap-align: center;
 
 	
+}
+
+img#qr{
+	margin:50px;
+	position: relative;
+	display:inline-block;
+	width: 200px;
+   height: auto;
+	border: 15px solid #FF5F1F;
 }
 
 .page2{
@@ -69,10 +94,10 @@ button{
 	overflow: scroll;/*this keepts page scrolling*/
 	font-size:16px;
    flex:none;
-	display: inline-block;
+	display: block;
 	justify-content: center;
    width: 100vw;
-   height: auto;
+   height: 100vh;
    background-color: #000000;
 	scroll-snap-align: center;
 
@@ -175,7 +200,7 @@ button{
 
 #if{
 	 flex-direction: column;
-	flex:none;
+	 flex:none;
 	 display:flex;
 	 width: 100vw;
     height: 100vh;
@@ -185,18 +210,7 @@ button{
 	 scroll-snap-align: center;
 	 
 }
-#qr{
-	position: flex;
-	top: 190px;
-	display:block;
-	text-align:center;
-	width: 200px;
-   height: auto;
-	object-fit:contain;
-  	margin-left: auto;/*keeps image in the middle of the documment*/
-  	margin-right: auto;/*keeps image in the middle of the documment*/
-	border: 15px solid #FF5F1F;
-}
+
 
 #gi{
 	display:block;
@@ -250,18 +264,7 @@ button{
 	display:block;
 }
 
-#qr{
-	position: flex;
-	top: 190px;
-	display:block;
-	text-align:center;
-	width: 200px;
-   height: auto;
-	object-fit:contain;
-  	margin-left: auto;/*keeps image in the middle of the documment*/
-  	margin-right: auto;/*keeps image in the middle of the documment*/
-	border: 15px solid #FF5F1F;
-}
+
 
 /*image*/
 
