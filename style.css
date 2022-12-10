@@ -80,8 +80,6 @@ button{
 }
 
 .logos{
-	padding-right: 20%;
-	padding-left:15%;
 	color:#FF5F1F;
 	overflow: scroll;/*this keepts page scrolling*/
 	font-size:16px;
@@ -119,7 +117,6 @@ button{
    height: auto;
 }
 .aftercare{
-
 	color:#FF5F1F;
 	overflow: scroll;
 	font-size:16px;
@@ -136,8 +133,7 @@ button{
 }
 .policy{
 
-	padding-right: 20%;
-	padding-left:15%;
+
 	color:#FF5F1F;
 	overflow: scroll;
 	font-size:16px;
@@ -154,8 +150,7 @@ button{
 }
 .aboutme{
 
-	padding-right: 20%;
-	padding-left:15%;
+
 	color:#FF5F1F;
 	overflow: scroll;
 	font-size:16px;
