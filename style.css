@@ -38,6 +38,7 @@ button{
     height: 100vh;
     background-color: red;
 	 scroll-snap-type: x mandatory;
+	 scroll-snap-stop: always;
 	 overflow-x: scroll;
 	 
 }
@@ -54,10 +55,11 @@ button{
 	display: block;
 	justify-content: center;
 	align-items: center;
-   width: 100vw;
+   width: auto;
    height: auto;
    background-color: #000000;
 	scroll-snap-align: center;
+
 	
 }
 
@@ -76,6 +78,7 @@ button{
    height: auto;
    background-color: #000000;
 	scroll-snap-align: center;
+
 	
 }
 
@@ -95,6 +98,7 @@ button{
    background-color: #000000;
 	scroll-snap-type: y mandatory;
 	scroll-snap-align: center;
+	scroll-snap-stop: always;
 	text-align:center;
 	width: 100%;
    height: auto;
@@ -114,7 +118,7 @@ button{
 }
 #qr{
 	position: flex;
-	top: 160px;
+	top: 190px;
 	display:block;
 	text-align:center;
 	width: 200px;
@@ -165,32 +169,26 @@ button{
    height: auto;
    background-color: #000000;
 	scroll-snap-align: center;
-	
-}
-
-.page1{
-	padding-right: 20%;
-	padding-left:15%;
-	color:#FF5F1F;
-	overflow: scroll;/*this keepts page scrolling*/
-	font-size:16px;
-   flex:none;
-	display: block;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-   width: 100vw;
-   height: auto;
-   background-color: #000000;
-	scroll-snap-align: center;
+	scroll-snap-stop: always;
 	
 }
 
 
 
 
+
+/*image*/
 	
 #logos{/*images*/
+
+	width: 200px;
+   height: auto;
+	margin-left: auto;/*keeps image in the middle of the documment*/
+  	margin-right: auto;
+	display:block;
+}
+
+#prophecylogo{/*images*/
 
 	width: 260px;
    height: auto;
@@ -198,6 +196,23 @@ button{
   	margin-right: auto;
 	display:block;
 }
+
+#qr{
+	position: flex;
+	top: 190px;
+	display:block;
+	text-align:center;
+	width: 200px;
+   height: auto;
+	object-fit:contain;
+  	margin-left: auto;/*keeps image in the middle of the documment*/
+  	margin-right: auto;/*keeps image in the middle of the documment*/
+	border: 15px solid #FF5F1F;
+}
+
+/*image*/
+
+
 
 .table{	
 display:inline-block;
@@ -239,6 +254,7 @@ img#gallery {
    height: auto;
    background-color: #000000;
 	scroll-snap-align: center;
+	scroll-snap-stop: always;
 
 }
 .policy{
@@ -256,6 +272,7 @@ img#gallery {
    height: auto;
    background-color: #000000;
 	scroll-snap-align: center;
+	scroll-snap-stop: always;
 
 }
 .aboutme{
@@ -273,6 +290,7 @@ img#gallery {
    height: auto;
    background-color: #000000;
 	scroll-snap-align: center;
+	scroll-snap-stop: always;
 
 }
 
@@ -322,6 +340,7 @@ li {
   	display:block;
 	height: 400px;
 	width: 320px;
+	display: none;
 }
 
 /*------------accordion-container--parent-------------*/
@@ -336,6 +355,7 @@ li {
    height: auto;
    background-color: #000000;
 	scroll-snap-align: center;
+	scroll-snap-stop: always;
 	
 }
 /*-----------------faq--------------------*/
