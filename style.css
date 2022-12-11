@@ -4,6 +4,17 @@
 	display:none;
 }
 
+/*-------------fonts---------------*/
+
+@font-face{
+
+	font-family:'madina';
+	src: local('/madina.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
 body{
     width: 100%;
     height: 100vh;
@@ -32,7 +43,9 @@ body{
 	width:130px ; 
 	border-color: #FF5F1F;
 }
+menu{
 
+}
 
 #menu-item{
 margin-left:10px;
@@ -40,6 +53,18 @@ margin-right:10px;
 	width:40px;
 	height:auto;
 }
+
+
+/*----------------------------*/
+.rack{}
+
+#ad-letters{}
+
+
+
+
+
+
 
 
 /*----------------------------*/
@@ -304,7 +329,9 @@ h1{
 h2{
 	 text-align:center;
 	 }
-
+h3{
+	text-align:center;
+}
 	
 	 
 /*----------Center Images !!!*/
@@ -312,7 +339,7 @@ h2{
 img#soap{
 	text-align:center;
 	display:flex;
-	width: 200px;
+	width: 150px;
    height: auto;
 	object-fit:contain;
   	margin-left: auto;/*keeps image in the middle of the documment*/
@@ -331,6 +358,11 @@ p{
 li {
 	margin-left: 10%;
    margin-right: 10%;
+}
+
+#I{
+	text-align:left;
+
 }
 /*-----map css -----
 #map{ 

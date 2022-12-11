@@ -10,7 +10,7 @@
       <link rel="stylesheet" href="style.css">
       <link rel="icon" type="image/icon" href="https://storage.googleapis.com/prophecytattoosapp-images/favicon.ico">
       <link rel="manifest" href="manifest.json">
-		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
       <script src="script.js"></script>
       <script src="serviceworker.js"></script>
@@ -21,13 +21,21 @@
  <!-- map scripts ---->
 		<script type="module" src="/map.js"></script>
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-			<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_6AMyGF05-P8W5DfvuZXVq6rnwNswZNo&callback=initMap"defer></script>	
+			<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_6AMyGF05-P8W5DfvuZXVq6rnwNswZNo&callback=initMap"defer></script>
+			<script>
+				
+			
+			</script>
   	</head>
   <body> 
     <div class="container">
       <div class="page1">
-		
 			<div><img id="prophecylogo"  src="https://storage.googleapis.com/prophecytattoosapp-images/prophecytattooslogo.jpeg"></div>
+			<div class="rack">
+				<h1 id="ad-letters">Names</h1>
+			
+			
+			</div>
 			<a href="sms: +1(716)575-7891"><button class="button">Book Now</button></a>
 			<br>
 			    
@@ -142,12 +150,7 @@
 					 <!---map script-->
  
 </div>
-      <div class="gallery">
-				<div id="if" ><div id="gh"><h1>Gallery</h1></div><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/virgin-mary-black-n-grey-tattoo.jpg"></div>
-				<div id="if" ><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/black-n-grey-bird-drawing.jpg"></div>
-				<div id="if" ><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/Neo-traditional-rose-tattoo.jpg"></div>
-				<div id="if" ><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/titto-tattoo.jpg"></div>
-		</div>
+      
       <div class="aftercare">
 			<br>
 			<h1>Tattoo Aftercare</h1>
@@ -174,9 +177,36 @@
 						<li>Dial Antibacterial Liquid Hand Soap, Gold</li>
 						<li>Bounty Select-A-Size Paper Towels</li>
 						<li>Aquaphor Healing Ointment</li>
+						<li>Aveeno Lotion</li>
 					</ul>
 			 <br>
+			 <h3>Dial Anti-Bacterial Liquid Hand Soap - Gold</h3>
 			 <div><img id="soap" src="https://storage.googleapis.com/prophecytattoosapp-images/dialhandsoapmarulaoil_hero.png" ></div>
+			 	<p id="I">Anti-bacterial soap is highly suggested for cleaning your tattoos.
+			me personally and profesionally recommend Dial Gold Antibacterial
+			Soap, it helps out with removing dry blood, plasma, bacteria that may be 
+			on the surface of your tattoo during the healing process. it keeps tattoos very clean 
+			and keeps the healthy.</p>
+			<br>
+			<h3>Aquaphor Healing Ointment</h3>
+			<div><img id="soap" src="https://storage.googleapis.com/prophecytattoosapp-images/aquaohor-small.png" ></div>
+			<p id="I">Aquaphor is a commonly recommended part of a tattoo aftercare regimen. It has hydrating and anti-inflammatory 
+			properties that can speed healing and make the process more comfortable. If you're getting some new ink, or have just gotten 
+			a tattoo, you may want to consider using Aquaphor.</p>
+			<h3>Aveeno Lotion</h3>
+			<div><img id="soap" src="https://storage.googleapis.com/prophecytattoosapp-images/aveeno-lotion.png" ></div>
+			<p  id="I">Tattoos can be irritating. Aveeno's lotion is packed with soothing oat to treat dry skin or irritation 
+			caused by new art. It's perfect for sensitive skin types.</p>
+			<br>
+			<br>
+			<h2>Professional Tattoo Aftercare Products</h2>
+			<br>
+			<h3>Hustle Butter</h3>
+			<div><img id="soap" src="https://storage.googleapis.com/prophecytattoosapp-images/hustle-butter.png" ></div>
+			<p>Hustle Butter Deluxe Luxury Tattoo Aftercare & Daily Moisturizing Tattoo Cream is as luxurious 
+			and rich as it sounds. Developed as an all natural, petroleum replacement lubricant used in the tattoo healing 
+			process, it is the #1 rated tattoo aftercare product amongst artists and clients with amazing value when tending to 
+			swelling & skin inflammation.     </p>
 		</div>
 		<div class="faq">
 			<br>
@@ -266,6 +296,12 @@ for (i = 0; i < acc.length; i++) {
 				<div ><img  id="aboutme" src="https://storage.googleapis.com/prophecytattoosapp-images/prophecy-photoshoot-01.jpg"></div>
 				<p>"Licensed tattoo artist who has been providing quality tattoos serving the people of New York and the surrounding three states for over 10 years. Prophecy Tattoos specializes in black and gray tattoos, thin line tattoos and dark artwork, creating original artwork for our clients."</p>
 				</div>
+		<div class="gallery">
+				<div id="if" ><div id="gh"><h1>Gallery</h1></div><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/virgin-mary-black-n-grey-tattoo.jpg"></div>
+				<div id="if" ><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/black-n-grey-bird-drawing.jpg"></div>
+				<div id="if" ><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/Neo-traditional-rose-tattoo.jpg"></div>
+				<div id="if" ><img id="gi" src="https://storage.googleapis.com/prophecytattoosapp-images/titto-tattoo.jpg"></div>
+		</div>
 		<div class="logos">
 				<div><img id="logos"  src="https://storage.googleapis.com/prophecytattoosapp-images/DynamicLogo.png"></div>
 				<div><img id="logos"  src="https://storage.googleapis.com/prophecytattoosapp-images/eternal_ink_logo.png"></div>
