@@ -5,15 +5,15 @@
 }
 
 /*-------------fonts---------------*/
-
 @font-face{
 
-	font-family:'madina';
-	src: local('/madina.ttf') format('truetype');
+	font-family:'chicanos';
+	src: local('/MyFiles/prophecytattoos.app/font/Chicanos.ttf') format("truetype");
 	font-weight: normal;
 	font-style: normal;
 
 }
+
 
 body{
     width: 100%;
@@ -34,6 +34,7 @@ body{
 	width:130px ; 
 	border-color: #FF5F1F;
 }
+
 #button{
 
 	
@@ -45,6 +46,17 @@ body{
 }
 
 
+
+#btn-case{
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+
+}
+menu{
+	
+}
+
 #menu-item{
 margin-left:10px;
 margin-right:10px;
@@ -52,16 +64,22 @@ margin-right:10px;
 	height:auto;
 }
 
-
-/*------
-
+#ad-letters{ 
+	font-family:chicanos;
+}
+/*----------------------------*/
 .rack{}
 
-#ad-letters{}
 
-menu{}
-----------------------*/
+#offer{
 
+	width: 200px;
+   height: auto;
+	margin-left: auto;/*keeps image in the middle of the documment*/
+  	margin-right: auto;
+	display:block;
+
+}
 
 
 
@@ -85,36 +103,42 @@ menu{}
 }
 
 .page1{
-	position:relative;
-	text-align:center;
-	align-items: center;
 	color:#FF5F1F;
-	overflow: scroll;/*this keepts page scrolling*/
+	overflow: scroll;
 	font-size:16px;
    flex:none;
-	justify-content: space-between;
-
+	display: block;
+	justify-content: center;
+	align-items: center;
    width: 100vw;
-   height: auto;
+   height: 100vh;
    background-color: #000000;
 	scroll-snap-align: center;
-
-	
+	scroll-snap-stop: always;
 }
 
-img#qr{
-	margin:50px;
+
+
+
+
+
+
+
+#qr{
+	margin:auto;
+	margin-bottom:50px;
 	position: relative;
-	display:inline-block;
-	width: 200px;
-   height: auto;
+	display:block;
+  	width: 300px;
+	max-width: 100vw;
+  	height: auto;
 	border: 15px solid #FF5F1F;
+
 }
 
 .page2{
 	text-align:center;
 	align-items: center;
-
 	color:#FF5F1F;
 	overflow: scroll;/*this keepts page scrolling*/
 	font-size:16px;
@@ -138,7 +162,7 @@ img#qr{
 	justify-content: center;
 	align-items: center;
    width: 100vw;
-   height: auto;
+   height: 100vh;
    background-color: #000000;
 	scroll-snap-align: center;
 	scroll-snap-stop: always;
