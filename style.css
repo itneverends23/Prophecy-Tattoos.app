@@ -54,6 +54,34 @@ body{
 
 }
 
+.product-item{
+	text-align: center;
+	background-color: black;
+	width:100vw;
+	height: auto;
+	
+}
+.mockup{
+	width: 100vw;
+	height: 100%;
+}
+
+.button-download{
+	
+	background-color: #FF5F1F ; 
+	height: 30px;
+	width:200px ; 
+	border-color: #FF5F1F;
+
+
+}
+
+/*---------------------------
+menu{
+	
+}
+/*----------------------------*/
+
 #menu-item{
 margin-left:10px;
 margin-right:10px;
@@ -64,10 +92,10 @@ margin-right:10px;
 #ad-letters{ 
 	font-family:chicanos;
 }
+/*----------------------------
+.rack{}
+
 /*----------------------------*/
-
-
-
 #offer{
 
 	width: 200px;
