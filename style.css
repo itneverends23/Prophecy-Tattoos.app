@@ -23,6 +23,10 @@ body{
 }
 /*--.--------buttons-----------------*/
 
+#phone-number{
+	font-size: 38px;
+	margin: auto;
+}
 
 .button{
 	margin:40px;
