@@ -35,6 +35,10 @@ body{
 	font-size: 38px;
 	margin: auto;
 }
+#phone-number-2{
+	font-size: 20px;
+	margin: auto;
+}
 
 .button{
 	margin:40px;
@@ -47,13 +51,24 @@ body{
 	border-color: #FF5F1F;
 }
 
+.button-1{
+	margin:auto;
+   position:relative;
+	display: inline-block;
+	justify-content:center;
+	background-color: #FF5F1F ; 
+	height:40px;
+	width: 200px ; 
+	border-color: #FF5F1F;
+}
+
 #button{
 
 	
 	display: inline-block;
 	background-color: #FF5F1F ; 
 	height:70px;
-	width:130px ; 
+	width: 100vw ; 
 	border-color: #FF5F1F;
 }
 
@@ -409,6 +424,7 @@ p{
    	margin-right: 10%;
 	text-align:center;
 	user-select: none;
+	margin: auto;
 }
 
 li {
